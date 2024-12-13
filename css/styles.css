@@ -119,9 +119,8 @@ ul, ol {
     position: absolute;
     bottom: -1px;
     background-color: #404bbf;
-    transition-property: background-color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    color: #404bbf;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1)
 }
 .nav-list-item.current {
     position: relative;
@@ -143,9 +142,7 @@ ul, ol {
         display: block;
         padding-top: 24px;
         padding-bottom: 24px;
-        transition-property: background-color;
-        transition-duration: 250ms;
-        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1)
 }
 .contacts-list:hover,
 .contacts-list:focus {
@@ -167,10 +164,11 @@ ul, ol {
     background-image: linear-gradient(
     rgba(46, 47, 66, 0.7),
     rgba(46, 47, 66, 0.7)), 
-    url("/images/people-office 1.png");
+    url("../images/people-office 1.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    max-width: 1440px;
 
 }
 .main-title {
@@ -278,16 +276,15 @@ ul, ol {
 }
 .social-links-list {
     display: flex;
-    align-items: center;
     justify-content: center;
     gap: 24px;
 }
 .social-links-list-svg {
-    fill: #FFFFFF;
+    fill: #f4f4fd;
 }
 .social-links-ref{
- width: 40px;
- height: 40px;
+ width: 100%;
+ height: 100%;
  background-color: #4d5ae5;
  display: flex;
  justify-content: center;
@@ -331,9 +328,12 @@ ul, ol {
     align-items: center;
     gap: 8px;
     padding-top: 32px;
-    padding-bottom: 8px;
+    padding-bottom: 32px;
 }
-
+.social-links-list-item {
+    width: 40px;
+    height: 40px;
+}
 
 .section-three-title-list {
     display: flex;
