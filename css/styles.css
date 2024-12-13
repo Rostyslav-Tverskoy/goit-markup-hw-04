@@ -483,5 +483,11 @@ ul, ol {
     align-items: center;
     justify-content: center;
 }
-
+.social-links-ref:focus {
+    background-color: #31d0aa;
+}
+.footer .container {
+    display: flex;
+    align-items: baseline;
+}
 /* #endregion */
