@@ -45,6 +45,8 @@ margin-bottom: 0;
 
 .header-page {
     border-bottom: 1px solid #e7e9fc;
+    box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 2px 1px 0 rgba(46, 47, 66, 0.08);
 }
 
 .header-page .container {
@@ -54,10 +56,10 @@ margin-bottom: 0;
 
 }
 
-
 .nav-page {
     display: flex;
     align-items: center;
+
 }
 
 .contacts-item {
@@ -108,16 +110,21 @@ ul, ol {
         padding-top: 24px;
         padding-bottom: 24px;
 }
-.nav-after::after {
+.nav-list-item.current::after {
     content: "";
     border-radius: 2px;
-    width: 48px;
+    width: 100%;
+    left: 0;
     height: 4px;
+    position: absolute;
+    bottom: -1px;
     background-color: #404bbf;
-    display: flex;
     transition-property: background-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.nav-list-item.current {
+    position: relative;
 }
 
 .nav-list-item:hover,
