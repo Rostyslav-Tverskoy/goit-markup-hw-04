@@ -485,7 +485,7 @@ ul, ol {
     align-items: center;
     justify-content: center;
 }
-.social-links-ref:focus {
+.social-links-list-item:focus .social-links-ref{
     background-color: #31d0aa;
 }
 .footer .container {
