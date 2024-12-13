@@ -369,12 +369,12 @@ ul, ol {
     height: 100%;
     width: 100%;
     transform: translateY(100%);
-    transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+   
 } 
 .section-four-list-item {
     position: relative;
-    overflow: hidden;
-    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);    
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    overflow: hidden;  
 }
 .section-four-list-item:hover,
 .section-four-list-item:focus {
@@ -396,10 +396,7 @@ ul, ol {
     padding-top: 120px;
     padding-bottom: 120px;
 }
-.img-bank {
-    position: relative;
-    overflow: hidden;
-}
+
 
 /* .section-four-list-item:hover .overlay, 
 .section-four-list-item:focus .overlay {
