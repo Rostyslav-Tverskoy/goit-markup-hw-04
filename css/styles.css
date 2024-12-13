@@ -161,7 +161,7 @@ ul, ol {
     background-color: #2e2f42;
     padding-top: 120px;
     padding-bottom: 120px;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../images/people-office 1.png");
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../images/people-office-1.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -377,10 +377,12 @@ ul, ol {
     overflow: hidden;  
 }
 .section-four-list-item:hover .overlay-paragraph {
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-        0px 1px 1px rgba(46, 47, 66, 0.16),
-        0px 2px 1px rgba(46, 47, 66, 0.08);
     transform: translateY(0);
+}
+.section-four-list-item:hover {
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+            0px 1px 1px rgba(46, 47, 66, 0.16),
+            0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .img-bank {
     position: relative;
