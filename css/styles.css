@@ -92,6 +92,7 @@ ul, ol {
         text-transform: uppercase;
         color: #4d5ae5;
     
+    
 }
 .span-logo {
     color:#2e2f42;
@@ -485,9 +486,7 @@ ul, ol {
     align-items: center;
     justify-content: center;
 }
-.social-links-list-item:focus .social-links-ref{
-    background-color: #31d0aa;
-}
+
 .footer .container {
     display: flex;
     align-items: baseline;
